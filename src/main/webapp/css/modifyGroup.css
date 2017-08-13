@@ -1,0 +1,81 @@
+body{
+	overflow-y:hidden;
+	z-index:0;
+	background:url(../img/8.jpg);
+}
+#container{
+	position:relative;
+	width:1366px;
+	height:643px;
+	z-index:1;
+}
+#showPirates {
+	position:absolute;
+	margin-top:50px;
+	clear:both;
+	width:1366px;
+	height:593px;
+	background-color:url(../img/8.jpg);
+	z-index:2;
+}
+
+#upload{
+	position:absolute;
+	width:1366px;
+	height:593px;
+	margin-left:-100px;
+	margin-top:0;
+	z-index:95;
+}
+#mask{
+	position:absolute;
+	width:100%;
+	height:100%;;
+	opacity:0.7;
+	background-color:#333333;
+	z-index:96;
+}
+#form{
+	position:absolute;
+	width:200px;
+	height:auto;
+	z-index:99;
+	margin-left:600px;
+	margin-top:200px;
+	text-align:center;
+	background-color:white;
+	padding:15px;
+	border-radius:10px;
+	background-color: lightblue;
+}
+#uploadClose{
+	position:absolute;
+	width:20px;
+	height:20px;
+	margin-left:780px;
+	margin-top:180px;
+	text-align:center;
+	font-size:20px;
+	color:white;
+	z-index:99
+}
+#uploadForm{
+	z-index:100;
+}
+
+.description ::-webkit-input-placeholder { /* WebKit browsers */ 
+color: white;
+opacity:0.3;
+} 
+.description :-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: white;
+opacity:0.3;
+} 
+.description ::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: white;
+opacity:0.3;
+} 
+.description :-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: white;
+opacity:0.3;
+} 

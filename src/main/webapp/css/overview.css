@@ -1,0 +1,87 @@
+body{
+	position:relative;
+	width:1366px;
+	height:643px;
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+.container{
+	position:absolute;
+	width:1366px;
+	height:593px;
+}
+/*内容层  */
+#row2 {
+	position:absolute;
+	width:1366px;
+	height:593px;
+	margin-top: 50px ;
+}
+/* 图片层 */
+.img {
+	position:absolute;
+	width:683px;
+	height:297px;
+	float:left;
+	clear:both;
+}
+.rowmask{
+	position:absolute;
+	width:683px;
+	height:297px;
+	z-index:100;
+}
+.img img{
+	width:100%;
+	height:100%;
+    float:left;
+    clear:both;
+}
+#leftTop{
+	margin-left:0;
+}
+.leftTop-mask{
+	margin-left:0;
+}
+#rightTop{
+	margin-left:683px;
+}
+.rightTop-mask{
+	margin-left:683px;
+}
+#leftBottom{
+	margin-left:0;
+	margin-top:296.5px;
+}
+.leftBottom-mask{
+	margin-left:0;
+	margin-top:296.5px;
+}
+#rightBottom{
+	margin-top:296.5px;
+	margin-left:683px;
+}
+.rightBottom-mask{
+	margin-top:296.5px;
+	margin-left:683px;
+}
+/*文字层  */
+.text{
+	position:absolute;
+	font-size:100px;
+	margin-top:85px;
+	z-index:100;
+	display:none;
+}
+#text1{
+	margin-left:137.5px;
+}
+#text2{
+	margin-left:242.5px;
+}
+#text3{
+	margin-left:190px;
+}
+#text4{
+	margin-left:242.5px;
+}
