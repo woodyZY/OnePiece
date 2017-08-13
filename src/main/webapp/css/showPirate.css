@@ -1,0 +1,111 @@
+body{
+	overflow-x:hidden;
+	overflow-y:hidden;
+	z-index:0;
+}
+#container{
+	position:relative;
+	width:1366px;
+	height:643px;
+}
+/*遮罩和弹出层  */
+#allMask{
+	position:absolute;
+	width:1366px;
+	height:643px;
+	margin-left:-114px;
+	background-color:black;
+	display:none;
+	opacity:0.5;
+	z-index:9998;
+}
+#pop{
+	position:absolute;
+	width:220px;
+	height:120px;
+	margin-left:470px;
+	margin-top:271.5px;
+	text-align:center;
+	background-color:white;
+	border:solid 2px #229FFD;
+	border-radius:5%;
+	display:none;
+	z-index:9999;
+}
+#password{
+	margin-top:40px;
+	text-align:center;
+	border:0;
+	outline:0;
+}
+#outline{
+	margin-left:20px;
+	width:180px;
+	height:1px;
+	background-color:#1B9AF7;
+}
+#pwdSubmit{
+	margin-top:5px;
+	margin-left:60px;
+	width:100px;
+	height:45px;
+	color:white;
+	text-align:center;
+	line-height:45px;
+	background-color:#A8E8FF;
+	border-radius:100px;
+}
+#row2{
+	position:absolute;
+	margin-top:50px;
+	margin-left:-115px;
+	width:1400px;
+	height:593px;
+	background-color:grey;
+	z-index:2;
+}
+#left-img{
+	position:absolute;
+	margin-left:1px;
+	width:500px;
+	height:593px;
+	background-color:brown;
+	z-index:3;
+}
+#right-info{
+	position:absolute;
+	margin-left:501px;
+	width:866px;
+	height:593px;
+	z-index:4;
+}
+.row-info{
+	position:absolute;
+	text-align:center;
+	margin-left:866px;
+	width:866px;
+	height:80px;
+	background-color:#41B7DF;
+	border:solid 1px grey;
+	z-index:5;
+}
+.row-info:hover{
+	background-color:white;
+	border:solid 1px #41B7DF;
+	color:#41B7DF;
+}
+#story{
+	height:112px
+}
+.infoName{
+	position:absolute;
+	width:auto;
+	height:auto;
+	margin-left:5px;
+	font-size:20px;
+	color:#434343;
+	z-index:6;
+}
+#loginOut{
+	display:none;
+}

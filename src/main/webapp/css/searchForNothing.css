@@ -1,0 +1,76 @@
+body{
+	width:auto;
+	height:auto;
+	background:url(../img/3.jpg);
+	overflow-x:hidden;
+	overflow-y:hidden;
+	z-index:0;
+}
+#container{
+	position:relative;
+	width:1366px;
+	height:593px;
+	z-index:1;
+}
+/*遮罩和弹出层  */
+#allMask{
+	position:absolute;
+	width:1366px;
+	height:643px;
+	margin-left:-114px;
+	background-color:black;
+	display:none;
+	opacity:0.5;
+	z-index:9998;
+}
+#pop{
+	position:absolute;
+	width:220px;
+	height:120px;
+	margin-left:470px;
+	margin-top:271.5px;
+	text-align:center;
+	background-color:white;
+	border:solid 2px #229FFD;
+	border-radius:5%;
+	display:none;
+	z-index:9999;
+}
+#password{
+	margin-top:40px;
+	text-align:center;
+	border:0;
+	outline:0;
+}
+#outline{
+	margin-left:20px;
+	width:180px;
+	height:1px;
+	background-color:#1B9AF7;
+}
+#submit{
+	margin-top:5px;
+	margin-left:60px;
+	width:100px;
+	height:45px;
+	color:white;
+	text-align:center;
+	line-height:45px;
+	background-color:#A8E8FF;
+	border-radius:100px;
+}
+#row2 {
+	position:absolute;
+	margin-top: 50px ;
+	width:1170px;
+	height:593px;
+	font-size:80px;
+	color:black;
+	text-align:center;
+	line-height:593px;
+	background-color:rgba(255,255,255,0.5);
+	z-index:2;
+}
+#loginOut{
+	display:none;
+}

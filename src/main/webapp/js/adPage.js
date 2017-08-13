@@ -1,0 +1,62 @@
+$(document).ready(function(){
+	
+	
+	//左侧蒙版鼠标悬浮和离开事件
+	$("#left-mask").mouseenter(function(){
+		$("#left-text-hai").animate({
+		    top:'246.5px',
+		    opacity:'1'
+		});
+		$("#left-text-zei").animate({
+		    bottom:'246.5px',
+		    opacity:'1'
+		});
+	});
+	$("#left-mask").mouseout(function(){
+	    $("#left-text-hai").animate({
+		    top:'0',
+		    opacity:'0'
+		});
+		$("#left-text-zei").animate({
+		    bottom:'0',
+		    opacity:'0'
+		});
+	});
+	//右侧蒙版鼠标悬浮和离开事件
+	$("#right-mask").mouseenter(function(){
+		$("#right-text-hai").animate({
+		    top:'246.5px',
+		    opacity:'1'
+		});
+		$("#right-text-zei").animate({
+		    bottom:'246.5px',
+		    opacity:'1'
+		});
+		$("#right-text-tuan").animate({
+		    top:'246.5px',
+		    opacity:'1'
+		});
+	});
+	$("#right-mask").mouseout(function(){
+	    $("#right-text-hai").animate({
+		    top:'0',
+		    opacity:'0'
+		});
+		$("#right-text-zei").animate({
+		    bottom:'0',
+		    opacity:'0'
+		});
+		$("#right-text-tuan").animate({
+		    top:'0',
+		    opacity:'0'
+		});
+	});
+   
+	//鼠标点击事件
+	$("#left-mask").click(function(){
+		window.location.href = "addPiratePage";
+	});
+	$("#right-mask").click(function(){
+		window.location.href = "addGroupPage";
+	});
+});

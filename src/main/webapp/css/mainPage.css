@@ -1,0 +1,146 @@
+/* #pageButton:hover{
+	background-color:#333 ! important;
+}
+#pageButton:focus{
+	background-color:#333 ! important;
+} 
+#pageButton:active{
+	background-color:#333! important;
+}  */
+/* 加 ！important可以增加优先级，覆盖bootstrap样式 */
+body{
+	width:auto;
+	height:auto;
+	background:url(../img/3.jpg);
+	overflow-x:hidden;
+	overflow-y:hidden;
+	z-index:0;
+}
+
+#container{
+	position:relative;
+	width:1366px;
+	height:643px;
+	z-index:1;
+}
+/*遮罩和弹出层  */
+#allMask{
+	position:absolute;
+	width:1366px;
+	height:643px;
+	margin-left:-114px;
+	background-color:black;
+	display:none;
+	opacity:0.5;
+	z-index:9998;
+}
+#pop{
+	position:absolute;
+	width:220px;
+	height:120px;
+	margin-left:470px;
+	margin-top:271.5px;
+	text-align:center;
+	background-color:white;
+	border:solid 2px #229FFD;
+	border-radius:5%;
+	display:none;
+	z-index:9999;
+}
+#password{
+	margin-top:40px;
+	text-align:center;
+	border:0;
+	outline:0;
+}
+#outline{
+	margin-left:20px;
+	width:180px;
+	height:1px;
+	background-color:#1B9AF7;
+}
+#submit{
+	margin-top:5px;
+	margin-left:60px;
+	width:100px;
+	height:45px;
+	color:white;
+	text-align:center;
+	line-height:45px;
+	background-color:#A8E8FF;
+	border-radius:100px;
+}
+#left-mask{
+	position:absolute;
+	width:99px;
+	height:593px;
+	margin-left:-113px;
+	margin-top:50px;
+	background-color:black;
+	opacity:0.8;
+	z-index:99;
+}
+#right-mask{
+	position:absolute;
+	width:98px;
+	height:593px;
+	margin-left:1155px;
+	margin-top:50px;
+	background-color:black;
+	opacity:0.8;
+	z-index:99;
+}
+#row2 {
+	margin-top: 50px ;
+	width:1170px;
+	height:593px;
+	background-color:black;
+	z-index:2;
+}
+#button-left{
+	position:absolute;
+	width:50px;
+	height:60px;
+	margin-top:275px;
+	margin-left:10px;
+	font-size:50px;
+	color:black;
+	display:"none";
+	z-index:99;
+}
+#button-right{
+	position:absolute;
+	width:50px;
+	height:60px;
+	margin-top:275px;
+	margin-left:1110px;
+	font-size:50px;
+	color:black;
+	display:block;
+	z-index:99;
+}
+#button-down{
+	position:absolute;
+	width:50px;
+	height:60px;
+	margin-top:545px;
+	margin-left:950px;
+	font-size:50px;
+	color:black;
+	display:"block";
+	z-index:99;
+}
+#button-up{
+	position:absolute;
+	width:50px;
+	height:60px;
+	margin-top:0;
+	margin-left:950px;
+	font-size:50px;
+	color:black;
+	display:"none";
+	z-index:99;
+}
+#loginOut{
+	display:none;
+}
