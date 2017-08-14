@@ -5,8 +5,8 @@
 　　MyEclipse、sublime
 
 ## 框架
-* SpringMvc、Hibernate <br>
-* jQuery、Bootstrap
+&nbsp* SpringMvc、Hibernate <br>
+&nbsp* jQuery、Bootstrap
 
 ## 其他
 　　Maven、MySQL
